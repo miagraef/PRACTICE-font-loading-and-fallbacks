@@ -71,3 +71,36 @@
     font-style: italic;
     font-display: swap;
 }
+
+/* color palette */
+/*
+#d9bac0
+#e9eaf2
+#b8bf80
+#70735f
+#bfbc95
+#262626
+*/
+
+:root {
+    --color-text: #262626;
+    --color-background: #e9eaf2;
+    --color-accent: #d9bac0;
+    --text-font: 'LEMON MILK', 'helvetica', 'arial', sans-serif;
+    --regular-font-weight: 500;
+    --light-font-weight: 300;
+}
+
+body {
+    font-family: var(--text-font);
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: var(--regular-font-weight);
+    background-color: var(--color-background);
+}
+
+button {
+    background-color: var(--color-accent);
+    font-weight: var(--light-font-weight);
+}
+
