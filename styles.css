@@ -73,7 +73,7 @@
 }
 
 /* color palette */
-/*
+/* 
 #d9bac0
 #e9eaf2
 #b8bf80
@@ -89,6 +89,7 @@
     --text-font: 'LEMON MILK', 'helvetica', 'arial', sans-serif;
     --regular-font-weight: 500;
     --light-font-weight: 300;
+    --text-padding: 0.5rem;
 }
 
 body {
@@ -97,10 +98,26 @@ body {
     font-style: normal;
     font-weight: var(--regular-font-weight);
     background-color: var(--color-background);
+    margin: 1rem;
 }
+
+section {
+    background-color: #bfbc95;
+    padding: var(--text-padding);
+}
+
+p {
+    line-height: 2;
+}
+
+h3 {
+    font-style: italic;
+}
+
 
 button {
     background-color: var(--color-accent);
     font-weight: var(--light-font-weight);
+    padding: var(--text-padding);
 }
 
